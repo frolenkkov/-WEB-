@@ -1,1 +1,1 @@
-# -WEB-
+git checkout -b gh-pages
