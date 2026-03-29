@@ -1,1 +1,58 @@
-git checkout -b gh-pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frolenkov CV</title>
+    <style>
+        ul{
+            display: inline-block;
+            text-align: left;
+            font-size: 50px;
+        }
+        img
+        {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body style="min-height: 100vh;">
+<div style="width: 900px; margin: 0 auto; padding: 20px" >
+    <header>
+        <div style="text-align: center;">
+            <p style="font-size: 50px; color: rgb(73, 221, 237);"><strong>Фроленков Евгений</strong></p>
+        </div>
+    </header>
+<main>
+    <div style="margin: 0 auto; width:20px;"><p style="font-size: 50px; color: rgb(73, 221, 237);"><strong>CV</strong></p></div>
+    <div style="text-align: center;">
+        <img src="фото" alt="Описание картинки" style="max-width: 60%; height: auto;">
+            <ul style=" display: inline-block;
+        text-align: left">
+                <li style="color: rgb(73, 221, 237); font-size: 30px">Фроленков Евгений</li>
+                <li style="color: rgb(73, 221, 237); font-size: 30px">Телефон: +375296930670</li>
+                <li><a href="https://www.instagram.com/frolenkkov?igsh=MWw2bnUzaTRueGVobw%3D%3D&utm_source=qr" style="color: rgb(73, 221, 237);">inst</a></li>
+            </ul>
+            <h1 style="color: rgb(73, 221, 237); font-size: 30px">About me </h1> 
+            <p style="color: rgb(73, 221, 237); font-size: 30px"> Учусь на специальности прикладная математика. Хочу дальше развиваться в сфере программирования.</p>
+        <h2 style="font-family: 'Times New Roman', Times, serif; color: rgb(73, 221, 237);" >SKILLS</h2>
+            <ol style="color: rgb(73, 221, 237);  display: inline-block; text-align: left;" >
+                <li>Python skills✅</li> 
+                <li>C# skills✅</li>   
+                <li>English B2✅</li>
+            </ol>
+            <h2 style="color: rgb(73, 221, 237); font-size: 30px">Example of code:</h2>
+    <pre>
+        <code style="color: blueviolet; font-size: 30px">
+        print("Hello, world!")
+        </code>
+    </pre>
+</main>
+</div>
+<footer style="text-align: center; color: rgb(73, 221, 237);"> 
+    <p>2026</p>
+</footer>
+</body>
+</html>
+
